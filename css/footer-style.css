@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+@media (max-width: 580px) {
+  .test {
+    padding-left: 0px !important;
+  }
+}
+
+
+
+
+.site-footer {
+  background-color: #f9f9f9;
+}
+
+.site-footer .footer-paragraph,
+.site-footer ul {
+  padding: 0;
+  margin: 0;
+}
+
+.site-footer li,
+.snapshots-slider li {
+  list-style-type: none;
+}
+
+.site-footer a {
+  font-family: Nunito, sans-serif;
+
+}
+
+.site-footer p {
+  font-family: Poppins, sans-serif;
+
+}
+
+.site-footer h5 {
+  font-size: 13px;
+
+}
+
+.site-footer a {
+  color: rgb(74, 74, 74);
+  line-height: 20px;
+  font-size: 16px;
+
+}
+
+.footer-logo {
+  width: 128px;
+  height: auto;
+}
+
+.footer-logo:hover {
+  fill: #005fbd !important;
+}
+
+.footer-list-hover:hover {
+  color: #222 !important;
+
+}
+
+.footer-icons-hover:hover {
+  color: #000 !important;
+
+}
+
+.footer-list img {
+  width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+.hvr-grow {
+
+  transition-duration: 0.3s;
+}
+
+.hvr-grow:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* Bounce In */
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.hvr-bounce-in:hover,
+.hvr-bounce-in:focus,
+.hvr-bounce-in:active {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
