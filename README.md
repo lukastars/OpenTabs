@@ -8,15 +8,13 @@ And I also made a blog for the company to share its latest updates and news with
 ## Technologies
 ### Front-End:
 * HTML/CSS
-* JavaScript(
-* Vue-toasted 
+* JavaScript
+* SASS
+* Bootstrap 4
 ### Back-End:
 * Hostinger
 ### Tools
-* VS Code, Git, Vue.js(DevTools), Chrome(DevTools)
+* VS Code, Git, Chrome(DevTools)
 
-## Project Screen Shots
-
-![alt text](https://imgur.com/L1NVOP8.gif "Logo Title Text 1")
 
 
